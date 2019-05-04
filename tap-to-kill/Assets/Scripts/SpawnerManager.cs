@@ -14,6 +14,16 @@ public class SpawnerManager : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate();
+        if (GameManager.gm.IsEnd)
+        {
+            return;
+        }
+        int numberPoint = Random.Range(0, points.Count);
+        GameObject go = Instantiate(spawnObject[Random.Range(0, spawnObject.Count)], points[numberPoint].transform);
+        go.transform.position = points[numberPoint].transform.position;
+        if (Random.Range(0, 2) == 1)
+        {
+            go.gameObject.SendMessage("negativeActivate");
+        }
     }
 }
