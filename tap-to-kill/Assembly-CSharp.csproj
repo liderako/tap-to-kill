@@ -53,9 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PopupObject.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\PointSpawn.cs" />
+     <Compile Include="Assets\Scripts\PopupObject.cs" />
      <Compile Include="Assets\Scripts\SpawnerManager.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Volumes/Storage/goinfre/asvirido/tap-to-kill/tap-to-kill/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
