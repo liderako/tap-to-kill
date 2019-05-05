@@ -14,7 +14,7 @@ public class SpawnerManager : MonoBehaviour
 
     public void Spawn()
     {
-        if (GameManager.gm.IsEnd)
+        if (GameManager.gm.IsEnd || GameManager.gm.IsPause)
         {
             return;
         }

@@ -20,6 +20,10 @@ public class PopupObject : MonoBehaviour
 
     public void hit()
     {
+        if (GameManager.gm.IsEnd || GameManager.gm.IsPause)
+        {
+            return;
+        }
         GameManager.gm.Scope += scope;
         Destroy(gameObject);
     }
@@ -29,9 +33,13 @@ public class PopupObject : MonoBehaviour
         float delta = 1f;
         for (int i = 0; i < 100; i++)
         {
+            while(GameManager.gm.IsPause)
+            {
+                yield return null;
+            }
             spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, delta);
-            yield return new WaitForSeconds(0.1f);
-            delta -= 0.05f;
+            yield return new WaitForSeconds(0.01f);
+            delta -= 0.01f;
         }
         Destroy(gameObject);
     }

@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
         {
             touch();
         }
+        if (GameManager.gm.IsEnd)
+        {
+            Destroy(gameObject);
+        }
     }
 
     protected void touch()
