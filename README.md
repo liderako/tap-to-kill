@@ -11,4 +11,5 @@ deduct points from the player’s score
 ### Win/Mac os
 
 settings
+
 escape - pause
