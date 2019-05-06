@@ -82,14 +82,14 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Антонио/Desktop/tmp/tap-to-kill/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
