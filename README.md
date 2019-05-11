@@ -1,7 +1,7 @@
 # Tap-to-kill
 
 This is test task for company
-
+Win/Mac os app in directory.
 ### Gameplay
 
 Players will need to tap various items(random simple shapes) that pop up on the screen to score points.
@@ -10,8 +10,5 @@ highest score per 1 minute timer. Negative objects(random simple shapes marked w
 deduct points from the player’s score
 
 
-### Win/Mac os
-
-settings
-
-escape - pause
+##### settings
+* Button Escape - pause
