@@ -1,5 +1,7 @@
 # Tap-to-kill
 
+This is test task for company
+
 ### Gameplay
 
 Players will need to tap various items(random simple shapes) that pop up on the screen to score points.
